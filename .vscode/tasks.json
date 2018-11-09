@@ -6,8 +6,9 @@
             "command": "dotnet",
             "type": "process",
             "args": [
-                "build",
-                "${workspaceFolder}/server/server.csproj"
+                "build"
+                // next arg commented out because sln file exists, all projects referenced there are build automatically without having to specify each one separately
+                // ,"${workspaceFolder}/server/server.csproj"
             ],
             "problemMatcher": "$msCompile"
         }
