@@ -7,8 +7,7 @@
             "type": "process",
             "args": [
                 "build"
-                // next arg commented out because sln file exists, all projects referenced there are build automatically without having to specify each one separately
-                // ,"${workspaceFolder}/server/server.csproj"
+                //"${workspaceFolder}/Server/Server.csproj"
             ],
             "problemMatcher": "$msCompile"
         }
