@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Server
 {
+  //[DbConfigurationType(typeof(MySql.Data.Entity.MySqlEFConfiguration))] // added this line for android ex: https://stackoverflow.com/questions/24981593/specified-key-was-too-long-max-key-length-is-767-bytes-mysql-error-in-entity-fr
   public class LibraryContext : DbContext
   {
     public DbSet<Book> Book { get; set; }
