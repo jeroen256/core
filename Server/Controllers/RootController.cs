@@ -8,9 +8,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Server.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("")]
     [ApiController]
-    public class InsertController : ControllerBase
+    public class RootController : ControllerBase
     {
         // GET api/values
         [HttpGet]
